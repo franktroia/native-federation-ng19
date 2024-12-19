@@ -1,10 +1,12 @@
 import { Component, createEnvironmentInjector, EnvironmentInjector, inject } from '@angular/core';
 import { loadRemoteModule } from '@angular-architects/native-federation';
 import { Store } from '@ngrx/store';
+import { RouterOutlet } from '@angular/router';
 
 @Component({
   selector: 'app-root',
-  template: `<button (click)="loadRemoteApp()">Load remote app</button>`,
+  imports: [RouterOutlet],
+  template: `<router-outlet></router-outlet>`,
   standalone: true,
 })
 export class AppComponent {

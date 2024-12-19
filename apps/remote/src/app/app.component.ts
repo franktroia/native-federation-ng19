@@ -2,8 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
   selector: 'app-root',
-  template: '',
-  standalone: true
+  template: 'remote app loaded!',
+  standalone: true,
 })
-export class AppComponent {
-}
+export class AppComponent {}
