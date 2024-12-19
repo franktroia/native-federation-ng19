@@ -1,0 +1,20 @@
+module.exports = {
+  sharedModules: {
+    '@angular/animations': { singleton: true, requiredVersion: '19.0.4', strictVersion: true },
+    '@angular/common': { singleton: true, requiredVersion: '19.0.4', strictVersion: true },
+    '@angular/common/http': { singleton: true, requiredVersion: '19.0.4', strictVersion: true },
+    '@angular/compiler': { singleton: true, requiredVersion: '19.0.4', strictVersion: true },
+    '@angular/core': { singleton: true, requiredVersion: '19.0.4', strictVersion: true },
+    '@angular/core/rxjs-interop': { singleton: true, requiredVersion: '19.0.4', strictVersion: true },
+    '@angular/core/primitives/signals': { singleton: true, requiredVersion: '19.0.4', strictVersion: true },
+    '@angular/core/primitives/event-dispatch': { singleton: true, requiredVersion: '19.0.4', strictVersion: true },
+    '@angular/platform-browser': { singleton: true, requiredVersion: '19.0.4', strictVersion: true },
+    '@angular/platform-browser-dynamic': { singleton: true, requiredVersion: '19.0.4', strictVersion: true },
+    '@angular/router': { singleton: true, requiredVersion: '19.0.4', strictVersion: true },
+    rxjs: { singleton: true, requiredVersion: '7.8.1', strictVersion: true },
+    'rxjs/operators': { singleton: true, requiredVersion: '7.8.1', strictVersion: true },
+    '@ngrx/store': { singleton: true, requiredVersion: '19.0.0', strictVersion: true },
+    '@ngrx/effects': { singleton: true, requiredVersion: '19.0.0', strictVersion: true },
+    '@ngrx/operators': { singleton: true, requiredVersion: '19.0.0', strictVersion: true },
+  },
+};
